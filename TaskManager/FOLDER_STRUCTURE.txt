@@ -1,0 +1,23 @@
+// Folder structure for backend (server)
+//
+// server/
+// ├── config/         # DB config and environment
+// ├── controllers/    # Route logic
+// ├── middleware/     # Auth, error handling
+// ├── models/         # Sequelize models
+// ├── routes/         # Express routes
+// ├── .env            # Environment variables
+// ├── app.js          # Express app
+// └── server.js       # Entry point
+
+// Folder structure for frontend (client)
+//
+// client/
+// ├── public/
+// ├── src/
+// │   ├── api/         # Axios API calls
+// │   ├── components/  # Reusable components
+// │   ├── pages/       # Login, Signup, Dashboard
+// │   ├── App.js
+// │   └── index.js
+// └── tailwind.config.js
